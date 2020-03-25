@@ -87,12 +87,10 @@ This experiment used a lot of new and useful skills with further applications. T
 The random command is very easy to use and could be very important especially for game purposes. Variety can extend the longevity of the game. It can also play a role in making a robot organic. Somewhat random elements (visual, motion, audio) create an illusion of not-machine. 
 
 
-### Experiment name ###
-
-(Replace this with the experiment name)
+### Tutorial 11: Pedestrian Crossing ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
+In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder. 
 
 ![Image](missingimage.png)
 
@@ -100,7 +98,29 @@ In the code below, replace imagemissing.jpg with the name of the image, which sh
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+This experiment initiates a sequence of LEDs after a button is pressed and then returns to a default, imitating a pedestrain crossing. 
 
-This experiment could be the basis of a real world application such as (insert something here).
+I made mistakes assembling this experiment at first, not correctly alligning the resistors and the LEDs, and incorrectly ordering LEDs, just some careless assembly. I knew to be careful in the more busy tutorial 12. This experiment especially pulls me away from my tenfency of wanting to do logic over just basic functions. Otherwise this is experiment is not very ellaborate or challengeing. I also learned that the difference between a digital pin and an analog pin is just different values to represent power (0 to 1 for digital, 0 to 1025 for analog), however also that some components do not work with digital pins. 
 
+I will undoubtedly chain multiple actions into a sequence in response to a stimulus. This ability is applicable in any microbit project, or any appliance. 
+
+### Tutorial 12: Die ###
+
+#### Photo of completed project ####
+In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder. 
+
+![Image](missingimage.png)
+
+(Insert a caption here)
+
+#### Reflection ####
+
+In this experiment the microbit is shaken to generate a random number from 0 to 5 that corresponds with a die face of 1 to 6 visualised by LEDs arranged like a die. It uses logic if ( ) then ( ), else ( ) more than any other tutorial so far. 
+
+I correctly assembled this experiment on the first try, which was fortunate as it is quite busy and difficult. The die is working correctly in the video, but there was a mistake in the code which I later cleared up in a tutorial. I was confused about why in the instructions 'Item' was defined to be a random number between 0 to 5, and then divided by 1, rather than it being 1-6. This was actually an addition symbol in the instructions, and a classmate told me that it is standard to start the range at 0 and then adjust. For this reason my die did not roll the number 6 and it also sometimes did not work because the random number was 0, it did not correspond to anything. This would be easily adjusted without the addition sign just with logic, if 'Item' = 0 digitalwritepin.P0 to 1 (this LED is in the middle), and adding one is a personal choice. 
+
+It is notable that the symmetry of the die is important to using only 4 pins instead of 6. Only later did I realise that the LED colour corresponds to the pin being activated. You would never need to control the diagonally opposite LEDs when imitating a die. 
+
+I also changed the original code of 'On Button A press' that rolls the die to be 'Shake'. This seemed intuitive and you could say it is a microinteraction that links unrelated digital process with a physical action, if I used the language of ___AUTHOR_____. 
+
+Using random numbers in combination with logic creates potential for a lot of outputs without a lot of inputs (in this case just a shake). Just like the compass game, it extends how long a user can find something novel. For example, everytime an animal toy is shaken it could produce a random sound from sound 1,2 or 3 and when it is pet it could produce the sounds 4 or 5, for no other reason than to create the variety expected from a living thing. 
