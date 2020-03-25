@@ -2,10 +2,6 @@
 
 *Markdown reference: https://guides.github.com/features/mastering-markdown/*
 
-## Instructions ##
-
-*For a selection of 5 inventor kit experiments that you choose, fill out the following sections.
-
 ### Experiment name ###
 
 (Replace this with the experiment name)
@@ -40,9 +36,7 @@ In this experiment, something new to me was or something I learned was (insert s
 
 This experiment could be the basis of a real world application such as (insert something here).
 
-### Experiment name ###
-
-Tutorial 7: Wind Power
+### Tutorial 7: Wind Power ###
 
 #### Photo of completed project ####
 In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
@@ -70,9 +64,7 @@ I recorded a highest value of 381.
 
 The real world applications of the "wind power" are obvious. However there are also other potental uses, such as use of other torque generating attachments to the fan ie: wheels. In relation to the projects we will make, this might be a kind of wind up toy that is activated by rolling it on the ground with some kind of electronic output. I imagine it would be difficult to store enough power to meaningfully power other functions of a toy like that, and maybe the winding up would be more of a trigger than a power supply, an illusion. 
 
-### Experiment name ###
-
-Tutorial 8: Compass Game
+### Tutorial 8: Compass Game ###
 
 #### Photo of completed project ####
 In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
