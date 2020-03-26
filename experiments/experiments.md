@@ -1,10 +1,6 @@
 # Inventor Kit Experiments
 
-*Markdown reference: https://guides.github.com/features/mastering-markdown/*
-
-### Experiment name ###
-
-(Replace this with the experiment name)
+### Tutorial 2: Using a light sensor and analog inputs ###
 
 #### Photo of completed project ####
 *In the code below, replace `missingimage.png` with the name of the image, which should be in the `kitexperiments` folder.*
@@ -15,26 +11,22 @@
 
 #### Reflection ####
 
-In this experiment, something new to me was or something I learned was (insert something here).
+A photoresistor creates a *potential divider* with a 10kohm transistor. This experiment is easy to replicate, but it was a challenge to understand it and the understanding was crucial to using any sort of sensor that I might be using in my next assessment. 
 
-This experiment could be the basis of a real world application such as (insert something here).
-
-### Experiment name ###
-
-(Replace this with the experiment name)
-
-#### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
+I looked up some information on potential dividers. I couldn't understand how the circuit I made and the ones they https://www.kitronik.co.uk/blog/potential-divider-voltage-divider/ were illustrating were the same, as pin 0 is often the power source of these experiments. However matching the illustrated circuit to the components and pins of the physical circuit I see that Pin 0 is for reading and 3V provides the power. 
 
 ![Image](missingimage.png)
+ 
+I still didn't really understand why the second resistor had to be there, why the photoresistor couldn't branch into Ground and Pin 0, and still measure the voltage. The answer https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider as I understand it without an understanding of the physics of it is that the voltage at the In and the Out is necessarily the same, and the only way to see a difference in it is to take an intercepting measurement. The resistors are isolating a voltage, maybe, by creating a difference in voltage between them:
 
-(Insert a caption here)
+V out = (V in * R2)/(R1 + R2) 
+Pin 0 = (3V * 10kohm resistor)/(photoresistor)
+The photoresistor resists less in higher light levels, as the inventors kit tutorial book outlines. 
+If the photoresistor's resistence is 0kohm, Pin 0 will read 3V. There is no effect on the voltage.   
+If the photoresistor's resistence is 15kohm, Pin 0 will read 1.2V. In the dark, the voltage is affected. 
+The threshold or the voltage (converted to the analog value between 0 and 1023) for the LED screen to change is set to above or below the ambient voltage. This is my understanding of the a potential divider and I will come back to this entry if I forget. 
 
-#### Reflection ####
-
-In this experiment, something new to me was or something I learned was (insert something here).
-
-This experiment could be the basis of a real world application such as (insert something here).
+Variable resistors can take measurements, ie: light, temperature, moisture, pressure. They can also be used like a potentiometer (also a variable resistor) to incrementally power something, rather than binary on/off, where increments are desirable, ie: change the speed of a motor (electronic gas/break pedal), brightness of lights, thermostats. If I had to come up with a rather extra Rube Goldberg machine in class I would chain variable resistors, ie: pressure sensor turns on a light that affects a photoresistor that powers a motor to squeeze a spray bottle on a moisture sensor, etc. 
 
 ### Tutorial 7: Wind Power ###
 
