@@ -3,7 +3,7 @@
 ## Timing Gates ##
 
 ## Related projects ##
-*Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
+It was difficult to find information online relevant to my project in some ways because it is the hard way of doing something quite basic. Using this particular kind of 'sensor' where an object closes a circuit without the use of any other sensors seems unconventional. The tracking of movement appears to be mostly done with infra-red sensors, but could also be done with a pressure sensor, a light sensor, an ultasonic distance sensor, and others I'm sure. 
 
 ### Related project 1 ###
 (Insert name of project)
@@ -12,25 +12,26 @@
 
 ![Image](missingimage.png)
 
-This project is related to mine because (insert reasons here).
+I wasn't sure how to most neatly incorprate the microbit into my project with the LED screen and the buttons accessible but the 
 
 ## Reading reflections ##
 
 ### Reading: Don Norman, The Design of Everyday Things, Chapter 1 (The Psychopathology of Everyday Things) ###
 
-*What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
+What I thought before: I'd previously felt that those sinks with the push down drain button were quite intuitive but I realise this is a learned behaviour. I've had experience with those sinks since I was a child, and the reading made the case that it really wasn't good design at all. It really is counterintuitive to dirty your hands to empty a sink. This must show how important it is to see past your own preconceptions about what is and isn't obvious. 
 
-*What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+What I learned: This text was very informative. As with all things design I guess everyone has some intuitive knowledge of these things, but giving them terms like affordance and signifier and feedback demonstrates how things are made the way they are deliberately even when we don't feel it. I'd never considered that affordances and signifiers can disagree. This seems very important. A device that doesn't work in the way the user really thinks it would is so frustrating. I was aware that light switch arrangement should spatially match the lights in the room, but I'd also never considered that mapping and conceptualisation is a means of coping with the abstraction of electronics. Or that the design of an object can actively steer you away from some action (anti-affordance). 
 
-*What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
+What I would like to know more about: It would be interesting to know how certain accepted conceptualisations came about. Some, as the text acknowledges, are natural. But others weren't intuitive at some point and now are, especially the conventions of webdesign and OS's and such. 
 
-*How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+The basic design principles outlined in this reading are integral to any project. I need to keep in mind what affordances my project has, and which ones it suggests with signifiers; what do I want people to do and what will people inevitably try to do, how I will feedback when they're doing it right and wrong. 
 
 ### Reading: Chapter 1 of Dan Saffer, Microinteractions: Designing with Details, Chapter 1 ###
 
-*What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
+What I thought before: Many of the things I would've called features are called microinteractions here, like converting currencies or units of measurement. For things that I accepted as microinteractions, I didn't recognise their importance, "your product is as good as the smallest part" is the claim made by the text
 
-*What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+What I learned: I never considered that microinteractions are the "feel" of the product and it makes total sense. When I think about the products I most love among many (competative market) it really is the details. 
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
@@ -40,7 +41,7 @@ This project is related to mine because (insert reasons here).
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
-*What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+What I learned: The reading demonstrated to me how someone with limited experience of programming and electronics could patchwork together a working prototype of quite an intelligent tool. 
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
@@ -48,7 +49,6 @@ This project is related to mine because (insert reasons here).
 
 
 ## Interaction flowchart ##
-*Draw a flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
 
 ![Image](missingimage.png)
 
@@ -66,13 +66,11 @@ This project is related to mine because (insert reasons here).
 
 ## Project outcome ##
 
-*Complete the following information.*
-
-### Project title ###
+### Timing Gates Improved ###
 
 ### Project description ###
 
-*In a few sentences, describe what the project is and does, who it is for, and a typical use case.*
+The timing gate track measures the velocity of a small object passing through two gates on the track, such as a toy car. It can be used to demonstrate concepts of physics. It can also be used to compare the speeds of different toy cars. On a larger scale, it could become a competative game. I
 
 ### Showcase image ###
 
