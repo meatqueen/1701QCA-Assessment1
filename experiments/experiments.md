@@ -12,7 +12,7 @@ A photoresistor creates a *potential divider* with a 10kohm transistor. This exp
 
 I looked up some information on potential dividers. I couldn't understand how the circuit I made and the ones they https://www.kitronik.co.uk/blog/potential-divider-voltage-divider/ were illustrating were the same, as pin 0 is often the power source of these experiments. However matching the illustrated circuit to the components and pins of the physical circuit I see that Pin 0 is for reading and 3V provides the power. 
 
-![Image](tutorial 2.png)
+![Image](tutorial2.png)
  
 I still didn't really understand why the second resistor had to be there, why the photoresistor couldn't branch into Ground and Pin 0, and still measure the voltage. The answer https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider as I understand it without an understanding of the physics of it is that the voltage at the In and the Out is necessarily the same, and the only way to see a difference in it is to take an intercepting measurement. The resistors are isolating a voltage, maybe, by creating a difference in voltage between them:
 
@@ -52,7 +52,7 @@ The real world applications of the "wind power" are obvious. However there are a
 ### Tutorial 8: Compass Game ###
 
 #### Photo of completed project ####
-![Image](compass.png)
+![Image](compass.PNG)
 
 *Light is flashing. I press the button and the LED screen lights up with "winner"*
 
@@ -73,7 +73,7 @@ The random command is very easy to use and could be very important especially fo
 ### Tutorial 11: Pedestrian Crossing ###
 
 #### Photo of completed project ####
-![Image](trafficlight.png)
+![Image](trafficlight.PNG)
 
 
 #### Reflection ####
@@ -87,7 +87,7 @@ I will undoubtedly chain multiple actions into a sequence in response to a stimu
 ### Tutorial 12: Die ###
 
 #### Photo of completed project ####
-![Image](die.png)
+![Image](die.PNG)
 
 *die rolling a 3*
 
