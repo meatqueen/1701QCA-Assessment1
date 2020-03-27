@@ -2,12 +2,9 @@
 
 ### Tutorial 2: Using a light sensor and analog inputs ###
 
-#### Photo of completed project ####
-*In the code below, replace `missingimage.png` with the name of the image, which should be in the `kitexperiments` folder.*
-
-![Image](missingimage.png)
-
-(Insert a caption here)
+#### Photo of completed project ###
+![Image](lightsensoroff.jpg)
+![Image](lightsensoron.jpg)
 
 #### Reflection ####
 
@@ -15,7 +12,7 @@ A photoresistor creates a *potential divider* with a 10kohm transistor. This exp
 
 I looked up some information on potential dividers. I couldn't understand how the circuit I made and the ones they https://www.kitronik.co.uk/blog/potential-divider-voltage-divider/ were illustrating were the same, as pin 0 is often the power source of these experiments. However matching the illustrated circuit to the components and pins of the physical circuit I see that Pin 0 is for reading and 3V provides the power. 
 
-![Image](missingimage.png)
+![Image](tutorial 2.png)
  
 I still didn't really understand why the second resistor had to be there, why the photoresistor couldn't branch into Ground and Pin 0, and still measure the voltage. The answer https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider as I understand it without an understanding of the physics of it is that the voltage at the In and the Out is necessarily the same, and the only way to see a difference in it is to take an intercepting measurement. The resistors are isolating a voltage, maybe, by creating a difference in voltage between them:
 
@@ -31,11 +28,7 @@ Variable resistors can take measurements, ie: light, temperature, moisture, pres
 ### Tutorial 7: Wind Power ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
-
-![Image](missingimage.png)
-
-(Insert a caption here)
+![Image](fan.jpg)
 
 #### Reflection ####
 
@@ -59,11 +52,9 @@ The real world applications of the "wind power" are obvious. However there are a
 ### Tutorial 8: Compass Game ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder.
+![Image](compass.png)
 
-![Image](missingimage.png)
-
-(Insert a caption here)
+*Light is flashing. I press the button and the LED screen lights up with "winner"*
 
 #### Reflection ####
 
@@ -82,11 +73,8 @@ The random command is very easy to use and could be very important especially fo
 ### Tutorial 11: Pedestrian Crossing ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder. 
+![Image](trafficlight.png)
 
-![Image](missingimage.png)
-
-(Insert a caption here)
 
 #### Reflection ####
 
@@ -99,11 +87,9 @@ I will undoubtedly chain multiple actions into a sequence in response to a stimu
 ### Tutorial 12: Die ###
 
 #### Photo of completed project ####
-In the code below, replace imagemissing.jpg with the name of the image, which should be in the kitexperiments folder. 
+![Image](die.png)
 
-![Image](missingimage.png)
-
-(Insert a caption here)
+*die rolling a 3*
 
 #### Reflection ####
 
@@ -113,6 +99,6 @@ I correctly assembled this experiment on the first try, which was fortunate as i
 
 It is notable that the symmetry of the die is important to using only 4 pins instead of 6. Only later did I realise that the LED colour corresponds to the pin being activated. You would never need to control the diagonally opposite LEDs when imitating a die. 
 
-I also changed the original code of 'On Button A press' that rolls the die to be 'Shake'. This seemed intuitive and you could say it is a microinteraction that links unrelated digital process with a physical action, if I used the language of ___AUTHOR_____. 
+I also changed the original code of 'On Button A press' that rolls the die to be 'Shake'. This seemed intuitive and you could say it is a microinteraction that links unrelated digital process with a physical action, if I used the language of Dan Saffer.
 
 Using random numbers in combination with logic creates potential for a lot of outputs without a lot of inputs (in this case just a shake). Just like the compass game, it extends how long a user can find something novel. For example, everytime an animal toy is shaken it could produce a random sound from sound 1,2 or 3 and when it is pet it could produce the sounds 4 or 5, for no other reason than to create the variety expected from a living thing. 
