@@ -4,7 +4,7 @@
 
 #### Photo of completed project ###
 ![Image](lightsensoroff.jpg)
-![Image](lightsensoron.jpg)
+![Image](lightesensoron.jpg)
 
 #### Reflection ####
 
