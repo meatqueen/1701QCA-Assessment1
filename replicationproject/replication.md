@@ -223,15 +223,16 @@ The timing gate track measures the velocity of a small object passing through tw
 
 ### Showcase image ###
 
-![Image](view1.jpg)
+![Image](view1.PNG)
 
-VIDEO 
+A demo video of how the timing gates work (and don't work)
+https://youtu.be/9Wi5MLw3ANY
 
 ### Additional view ###
 
-![Image](controlboard.jpg)
+![Image](controller.PNG)
 
-![Image](view2.jpg)
+![Image](view2.PNG)
 
 ### Reflection ###
 
