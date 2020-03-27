@@ -184,6 +184,9 @@ In the original project, the microbit would display the time anytime gate 2 was 
 My first idea was successful. The microbit would create time stamp for the first gate, then check if the second gate has a timestamp (above 0) within a window of time. Originally the window was 500ms, later increased to 1000ms. If it had, then it display the V of these values. If it hadn’t, it would clear the timestamp (set to 0) and return to the default screen. 
 I also found that I needed to clear the timestamps after V was displayed or else the gates kept their previous times, and if one gate was triggered on following trials a very wrong V would immediately display. 
 I cannot round with the default ‘round’ function. It rounds to the whole number and V is a fraction so it rounds to 0.  Searching forums, I found someone use truncate. It does the same thing. I used the method of another user on a [forum post]( https://stackoverflow.com/questions/57230963/how-do-i-round-to-1-decimal-on-the-bbcmicrobit-with-javascript-w-o-tofixed-t), also with no luck (still many decimal points). 
+
+*Future Julia: It occurs to me in retrospect that I should've changed my units to cm/s and rounded that. It doesn't matter that it isn't an SI unit. It wouldnt have many decimal points, ie: 17cm/s*
+
 ### Final Code Touches ###
 I tweaked the LEDs to match the new orientation of the microbit to the track
 The B button now turns off the screen to conserve power but turns on automatically with gate triggers (on standby). If users want to check if the microbit is ready without triggering the gates, they can press A for the default screen. 
