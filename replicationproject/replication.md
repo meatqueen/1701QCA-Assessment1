@@ -103,7 +103,7 @@ I tested out a couple of connections of wire to sensor. I found that wrapping th
 I used the screws and nut provided to connect the other ends of the wires to the microbit. This appears to be a secure method, except that with excessive twisting the exposed wires in the hole tend to break off from the rest of the wire. This shouldn’t be an issue once the microbit is secured. 
 The code I had at this point was minimal, just to tell me that the circuit is closed. I changed the image from the guide to match the orientation of my workspace. 
 ![Image](code1.png)
-### Do the gates close using just my finger? -###
+### Do the gates close using just my finger? ###
 Yes. Connections do work. 
 ### Some issues: ###
 The gap in between the two sensor strips needs to be small, and I reduced it in the later iteration. Otherwise the sensor isn’t sensitive enough. 
