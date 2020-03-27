@@ -10,11 +10,11 @@
 
 A photoresistor creates a *potential divider* with a 10kohm transistor. This experiment is easy to replicate, but it was a challenge to understand it and the understanding was crucial to using any sort of sensor that I might be using in my next assessment. 
 
-I looked up some information on potential dividers. I couldn't understand how the circuit I made and the ones they https://www.kitronik.co.uk/blog/potential-divider-voltage-divider/ were illustrating were the same, as pin 0 is often the power source of these experiments. However matching the illustrated circuit to the components and pins of the physical circuit I see that Pin 0 is for reading and 3V provides the power. 
+I looked up some information on potential dividers. I couldn't understand how the circuit I made and the ones [they](https://www.kitronik.co.uk/blog/potential-divider-voltage-divider/) were illustrating were the same, as pin 0 is often the power source of these experiments. However matching the illustrated circuit to the components and pins of the physical circuit I see that Pin 0 is for reading and 3V provides the power. 
 
 ![Image](tutorial2.png)
  
-I still didn't really understand why the second resistor had to be there, why the photoresistor couldn't branch into Ground and Pin 0, and still measure the voltage. The answer https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider as I understand it without an understanding of the physics of it is that the voltage at the In and the Out is necessarily the same, and the only way to see a difference in it is to take an intercepting measurement. The resistors are isolating a voltage, maybe, by creating a difference in voltage between them:
+I still didn't really understand why the second resistor had to be there, why the photoresistor couldn't branch into Ground and Pin 0, and still measure the voltage. [The answer explained to me on Khan Academy](https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-resistor-circuits/v/ee-voltage-divider) as I understand it without an understanding of the physics of it is that the voltage at the In and the Out is necessarily the same, and the only way to see a difference in it is to take an intercepting measurement. The resistors are isolating a voltage, maybe, by creating a difference in voltage between them:
 
 V out = (V in * R2)/(R1 + R2) 
 Pin 0 = (3V * 10kohm resistor)/(photoresistor)
