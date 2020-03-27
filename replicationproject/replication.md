@@ -40,7 +40,7 @@ I wasn't sure how to most neatly incorporate the microbit into my project with t
 ### Related project 2 ###
 [DIY pressure plate](https://www.youtube.com/watch?v=c6RXu0pYUVI)
 
-![Image](DIY.png)
+![Image](DIY.PNG)
 
 This project essentially demonstrates how my plates are supposed to work but at a larger scale. Although I did not get the idea from this video but rather as advice from a professional, it still demonstrates the concept (and also demonstrates that it can't be scaled down very well). 
 
@@ -53,9 +53,9 @@ This project supported me on the claim that the guide is wrong and that the micr
 These projects demonstrate my claim that IR sensors are the preferred way to detect moving objects like toy cars, and that no one investigates my method to detect passing objects. 
 
 https://www.electronicshub.org/street-lights-that-glow-on-detecting-vehicle-movement/
-![Image](IR1.png)
+![Image](IR1.PNG)
 https://create.arduino.cc/projecthub/unexpectedmaker/arduino-hot-wheels-speed-track-part-1-prototype-6a01b8
-![Image](IR2.png)
+![Image](IR2.PNG)
 
 ## Reading reflections ##
 
@@ -93,10 +93,10 @@ The text reminded me how, as with anything but especially making a product from 
 *How this relates to the project I am working on:* This text is motivating a person like me who has little programming and electronics experience to persevere, because, paraphrasing, "it feels like a punch in the face, but a punch in the face you realise isn't so bad and now you're not afraid of it". I always enjoy reading the logs behind someone's work. I should keep structure in mind when inserting my log. 
 
 ## Interaction flowchart ##
-
+![Image](Flowchart.png)
 # Process documentation #
 ## Step 1: Testing that the gates can close using a basic track with basic aluminium sensors ##
-![Image](track1.png)
+![Image](track1.PNG)
 ### Making connections ### 
 I won’t be using alligator clips for this assignment. I’ll be using just wires instead. I did not need to connect two wires together in the end, although throughout replication processes I hooked two exposed ends together and taped them, as the tutor recommended. 
 I tested out a couple of connections of wire to sensor. I found that wrapping the wire, threading it through the aluminium, sticking it on top and on the bottom of the aluminium all worked so for the rest of the prototyping I went with the easiest which was to tape the wire onto the sensor. I will need to change this for the final. 
@@ -138,11 +138,11 @@ I thought about using wind-up toys for the first solution. I considered using an
 ## Step 3: Track Improvement ##
 ### Additional LEDs ###
 In the meantime, I wanted an indicator aside from the LED screen that signified that the gates had been triggered. Controlling the track situation and looking at the screen was difficult. I wanted to try LEDs placed next to the gates.
-![Image](LEdclose.jpg)
+![Image](LEDclose.jpg)
 First issue I ran into was that I didn’t have enough pins. 0 and 1 were being used for the gates, leaving me with 2 for two separate LEDs. I know I could’ve used the edge connector but I wanted stronger connections. I made one LED run through pin 2 for gate 1, just to know that it’s responsive to the gate, and the other I connected to gate 2 circuit, hoping closing the circuit would power the LED. That did not turn the LED on, I assume because pins don’t have constant output. The other one worked though
 I tried making it so that pin 1 output power when the gate was closed. 
 ![Image](code2.png)
-![Image](LED diagram.png)
+![Image](LEDdiagram.png)
 ![Image](LED.jpg)
 That kept the pin on forever. Although in retrospect if I wrote Pin 1 to 0 power after the pause it might’ve worked. 
 After that I tried making a connection with one of the edge pins without using an edge connector (just tape) to have an extra pin. It was a bad idea, lacked precision and didn’t work at all. 
@@ -176,7 +176,7 @@ T2: 6942909
 Difference= 1125710, would be 1125 seconds. That’s not right.
 At this point I stopped using the physical track and just used the simulator to speed things up and have reliable trails to figure out the factor I needed to divide by if there was one. It occurred to me it might be in a different unit. 
 I ran some trails with a 1000ms and 2000ms gap in between pressing buttons A and B. The microbit would display ‘T’ when 1/2s was up after pressing A so I knew to press B. Some delay is expected. If the difference T correlates with the gap, I can find the factor. If T is 1000, then it is in milliseconds, if it is 1 000 000, I’ll know to divide by a factor of 1000 to get milliseconds. 
-![Image](code5.png)
+![Image](code5.PNG)
 Here I realised the units were microseconds. This is supported by this [forum thread](https://github.com/microsoft/pxt-microbit/issues/1996) that I had previously read but misread the first time. 
 Now I know to divide by 1,000,000 to get seconds. 
 ### When will the microbit know to do the maths? ###
@@ -188,7 +188,7 @@ I cannot round with the default ‘round’ function. It rounds to the whole num
 I tweaked the LEDs to match the new orientation of the microbit to the track
 The B button now turns off the screen to conserve power but turns on automatically with gate triggers (on standby). If users want to check if the microbit is ready without triggering the gates, they can press A for the default screen. 
 I changed the distance in the functions to the one of the new track. 
-![Image](code 6.png)
+![Image](code6.PNG)
 ## Step 5: final assembly ##
 In the final version of the track I put in some car catching bays because I got tired of picking up the car.
 
@@ -206,8 +206,9 @@ I thought that maybe soaking the conductive tape in water to get off the stuck c
 And that made a massive difference for one set of plates but somehow not the other. 
 I was really proud of the connections I made with the plates too, they were neat. 
 ![Image](connectionslike.jpg)
+
 I had to scrap the copper tape for one of the gates and replaced it with aluminium again. They didn't work if I glued them down.
-![Image](notconducting2.jpg)
+![Image](notconducting2.PNG)
 I had one lose aluminium and one copper gate.
 ![Image](mechanismnew.jpg)
 But still neither of the gates were forming as reliable connections as before. Now they were setting off randomly sometimes, and sometimes set off. I had to slot in some dividing wires that can be used to lift the aluminium sheet from underneath for when it really gets stuck. By all means this is a failure. 
