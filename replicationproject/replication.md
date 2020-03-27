@@ -49,7 +49,7 @@ This project essentially demonstrates how my plates are supposed to work but at 
 
 This project supported me on the claim that the guide is wrong and that the microbit uses microseconds rather than milliseconds or seconds. 
 
-### Related project 4 & 5###
+### Related project 4 & 5 ###
 These projects demonstrate my claim that IR sensors are the preferred way to detect moving objects like toy cars, and that no one investigates my method to detect passing objects. 
 
 https://www.electronicshub.org/street-lights-that-glow-on-detecting-vehicle-movement/
